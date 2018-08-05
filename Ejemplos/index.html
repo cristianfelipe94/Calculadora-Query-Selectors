@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Ejemplo QuerySelector y QuerySelectorAll</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="author" content="Cristian Felipe">
+</head>
+
+<body>
+
+	<div id="header">
+		<h1>QuerySelector y QuerySelectorAll</h1>
+		<h3>Calculadora</h3>
+	</div>
+
+	<!-- Wrapper Calc-->
+	<div id="wrapperCalc">
+
+		<!--Screen and Clean Btn-->
+		<div class="top">
+			<span class="cleanBtn" onclick="pulsada('C')">C</span>
+			<div class="screen"></div>
+		</div>
+
+		<div class="btns">
+
+			<!--Numbers and math operators.-->
+			<span class="number">7</span>
+			<span class="number">8</span>
+			<span class="number">9</span>
+			<span class="mathOperators">+</span>
+			<span class="number">4</span>
+			<span class="number">5</span>
+			<span class="number">6</span>
+			<span class="mathOperators">-</span>
+			<span class="number">1</span>
+			<span class="number">2</span>
+			<span class="number">3</span>
+			<span class="mathOperators">÷</span>
+			<span class="number">0</span>
+			<span class="dot">.</span>
+			<span class="equalSign">=</span>
+			<span class="mathOperators">x</span>
+
+		</div>
+	</div>
+
+	<div id="MarkUpWrapper">
+
+		<div id="marcaNumeros" onclick="marcarNumeros()"> Marcar Números.</div>
+		<div id="marcaOperadores" onclick="marcarOperadores()">Marcar Operadores.</div>
+		<div id="marcarC" onclick="marcarLetraC()">Marcar Clean.</div>
+		<div id="marcarPunto" onclick="marcarPunto()">Marcar Punto.</div>
+		<div id="marcarPantalla" onclick="marcarPantalla()">Marcar Pantalla.</div>
+		<div id="limpiarMarcas" onclick="limpiarMarcado()">Limpiar Marcas.</div>
+
+	</div>
+
+	<footer id="footer">
+		<p>Cristian Felipe 2018 CETAV.</p>
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

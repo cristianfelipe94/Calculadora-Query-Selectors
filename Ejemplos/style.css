@@ -1,0 +1,126 @@
+
+/*Set the default information for the basic structure*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#wrapperCalc {
+    font: bold 14px Arial, sans-serif;
+    background-color: #BAD1BD;
+    border-radius: 20px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 50px 5px;
+    width: 285px;
+}
+
+#header {
+    background-color: rgb(48, 46, 46);
+    color: #FFFFFF;
+    margin: 5px;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+}
+
+.top .screen {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 17px;
+    height: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: right;
+    width: 180px;
+    transition: 0.5s ease;
+
+}
+
+.btns, .top {
+    overflow: hidden;
+}
+
+.btns span, .top span.cleanBtn {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #888888;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 7px 11px 0;
+    text-align: center;
+    transition: 0.5s ease;
+    width: 66px;
+
+}
+
+.top span.cleanBtn {
+    background-color: #FF7C87;
+}
+
+.btns span.mathOperators {
+    background-color: #FFDAB9;
+    margin-right: 0;
+}
+
+.btns span.equalSign {
+    background-color: #F1FF92;
+    color: #888E5F;
+}
+
+.top span.cleanBtn {
+    background-color: #FF9FA8;
+    color: #FFFFFF;
+}
+
+.btns span:hover, .btns span.equalSign:hover, .top span.cleanBtn:hover, .screen:hover {
+    background-color: #EABE46;
+    color: #FFFFFF;
+}
+
+#MarkUpWrapper {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#marcaNumeros, #marcaOperadores, #marcarC, #marcarPunto, #marcarPantalla {
+    padding: 15px;
+    width: 90px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 40px;
+    background: #C64A3B;
+}
+
+#limpiarMarcas {
+    padding: 20px;
+    width: 655px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 40px;
+    background: #C64A3B;
+}
+
+#marcaNumeros:hover, #marcaOperadores:hover, #marcarC:hover, #marcarPunto:hover, #marcarPantalla:hover, #limpiarMarcas:hover {
+    background: #1A7BBC;
+    transition: 0.5s ease;
+}
+
+
+#footer {
+    background-color: rgb(48, 46, 46);
+    color: white;
+    margin: 5px;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+}
